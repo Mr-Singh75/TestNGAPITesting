@@ -1,22 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 11.477 s <<< FAILURE! - in TestSuite
-testLoginUser(ApiTesting.DemoTest.TestCases)  Time elapsed: 0.69 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-JSON path token doesn't match.
-Expected: QpwL5tke4Pnpja7X4
-  Actual: null
-
-	at ApiTesting.DemoTest.TestCases.testLoginUser(TestCases.java:120)
-
-testRegisterUser(ApiTesting.DemoTest.TestCases)  Time elapsed: 0.579 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-JSON path id doesn't match.
-Expected: <4>
-  Actual: null
-
-	at ApiTesting.DemoTest.TestCases.testRegisterUser(TestCases.java:106)
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.08 s <<< FAILURE! - in TestSuite
+testFetchUsers(ApiTesting.DemoTest.TestCases)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ApiTesting.DemoTest.TestCases.testFetchUsers(TestCases.java:36)
 

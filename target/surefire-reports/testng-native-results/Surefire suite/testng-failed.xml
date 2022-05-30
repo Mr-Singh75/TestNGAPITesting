@@ -5,10 +5,9 @@
     <classes>
       <class name="ApiTesting.DemoTest.TestCases">
         <methods>
-          <include name="testLoginUser"/>
           <include name="setSpecification"/>
+          <include name="testFetchUsers"/>
           <include name="closeReport"/>
-          <include name="testRegisterUser"/>
         </methods>
       </class> <!-- ApiTesting.DemoTest.TestCases -->
     </classes>

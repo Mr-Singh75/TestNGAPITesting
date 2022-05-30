@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11.477" tests="9" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="15.08" tests="10" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin"/>
-    <property name="sun.java.command" value="C:\Users\YOGEND~1\AppData\Local\Temp\surefire16195332599056255105\surefirebooter8823526932570545173.jar C:\Users\Yogendra Thakur\AppData\Local\Temp\surefire16195332599056255105 2022-05-29T22-13-42_750-jvmRun1 surefire15109475620480025429tmp surefire_0448168902518862538tmp"/>
+    <property name="sun.java.command" value="C:\Users\YOGEND~1\AppData\Local\Temp\surefire5969999538936236224\surefirebooter15677104082364719078.jar C:\Users\Yogendra Thakur\AppData\Local\Temp\surefire5969999538936236224 2022-05-30T11-04-47_800-jvmRun1 surefire1180253312298833996tmp surefire_015848460433723452668tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Testing\TestNG\DemoTest\target\test-classes;D:\Testing\TestNG\DemoTest\target\classes;C:\Users\Yogendra Thakur\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Yogendra Thakur\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Yogendra Thakur\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\Yogendra Thakur\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\Yogendra Thakur\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Yogendra Thakur\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Yogendra Thakur\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Yogendra Thakur\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Yogendra Thakur\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Yogendra Thakur\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Yogendra Thakur\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Yogendra Thakur\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Yogendra Thakur\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\Yogendra Thakur\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Yogendra Thakur\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Yogendra Thakur\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Yogendra Thakur\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Yogendra Thakur\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Yogendra Thakur\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Yogendra Thakur\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Yogendra Thakur\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Yogendra Thakur\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Yogendra Thakur\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Yogendra Thakur\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\Yogendra Thakur\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Yogendra Thakur\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Yogendra Thakur\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Yogendra Thakur\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Yogendra Thakur\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Yogendra Thakur\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Yogendra Thakur\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\YOGEND~1\AppData\Local\Temp\surefire16195332599056255105\surefirebooter8823526932570545173.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\YOGEND~1\AppData\Local\Temp\surefire5969999538936236224\surefirebooter15677104082364719078.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
@@ -53,38 +53,25 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-11.0.14/bin/server;C:/Program Files/Java/jdk-11.0.14/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Java\bin;C:\hadoop\bin;C:\hadoop\sbin;C:\Users\Yogendra Thakur\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Yogendra Thakur\AppData\Local\Programs\Python\Python310\;C:\Users\Yogendra Thakur\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;;C:\Users\Yogendra Thakur\AppData\Local\Android\Sdk\platform-tools;C:\Users\Yogendra Thakur\AppData\Local\Android\Sdk\tools;C:\Users\Yogendra Thakur\AppData\Local\Android\Sdk\build-tools;C:\Users\Yogendra Thakur\AppData\Local\Android\Sdk\emulator;;C:\Users\Yogendra Thakur\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-11.0.14/bin/server;C:/Program Files/Java/jdk-11.0.14/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Java\bin;C:\hadoop\bin;C:\hadoop\sbin;C:\Users\Yogendra Thakur\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Yogendra Thakur\AppData\Local\Programs\Python\Python310\;C:\Users\Yogendra Thakur\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;;C:\Users\Yogendra Thakur\AppData\Local\Android\Sdk\platform-tools;C:\Users\Yogendra Thakur\AppData\Local\Android\Sdk\tools;C:\Users\Yogendra Thakur\AppData\Local\Android\Sdk\build-tools;C:\Users\Yogendra Thakur\AppData\Local\Android\Sdk\emulator;;C:\Windows\System32;;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testCreateUser" classname="ApiTesting.DemoTest.TestCases" time="2.408"/>
-  <testcase name="testDelayedResponse" classname="ApiTesting.DemoTest.TestCases" time="3.615"/>
-  <testcase name="testFetchSingleUser" classname="ApiTesting.DemoTest.TestCases" time="0.583"/>
-  <testcase name="testFetchUser" classname="ApiTesting.DemoTest.TestCases" time="0.361"/>
-  <testcase name="testLoginUnseccusfulUser" classname="ApiTesting.DemoTest.TestCases" time="0.619"/>
-  <testcase name="testLoginUser" classname="ApiTesting.DemoTest.TestCases" time="0.69">
-    <failure message="1 expectation failed.&#10;JSON path token doesn&apos;t match.&#10;Expected: QpwL5tke4Pnpja7X4&#10;  Actual: null&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
-1 expectation failed.
-JSON path token doesn't match.
-Expected: QpwL5tke4Pnpja7X4
-  Actual: null
-
-	at ApiTesting.DemoTest.TestCases.testLoginUser(TestCases.java:120)
+  <testcase name="testCreateUser" classname="ApiTesting.DemoTest.TestCases" time="3.3"/>
+  <testcase name="testDelayedResponse" classname="ApiTesting.DemoTest.TestCases" time="4.817"/>
+  <testcase name="testFetchListOfUsers" classname="ApiTesting.DemoTest.TestCases" time="1.246"/>
+  <testcase name="testFetchSingleUser" classname="ApiTesting.DemoTest.TestCases" time="0.782"/>
+  <testcase name="testFetchUsers" classname="ApiTesting.DemoTest.TestCases" time="0.015">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at ApiTesting.DemoTest.TestCases.testFetchUsers(TestCases.java:36)
 </failure>
   </testcase>
-  <testcase name="testRegisterUser" classname="ApiTesting.DemoTest.TestCases" time="0.579">
-    <failure message="1 expectation failed.&#10;JSON path id doesn&apos;t match.&#10;Expected: &lt;4&gt;&#10;  Actual: null&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-JSON path id doesn't match.
-Expected: <4>
-  Actual: null
-
-	at ApiTesting.DemoTest.TestCases.testRegisterUser(TestCases.java:106)
-]]></failure>
-  </testcase>
-  <testcase name="testUnsuccesfulRegisterUser" classname="ApiTesting.DemoTest.TestCases" time="0.567"/>
-  <testcase name="testApp on testApp(ApiTesting.DemoTest.AppTest)" classname="ApiTesting.DemoTest.AppTest" time="0.958"/>
+  <testcase name="testLoginUnseccusfulUser" classname="ApiTesting.DemoTest.TestCases" time="0.646"/>
+  <testcase name="testLoginUser" classname="ApiTesting.DemoTest.TestCases" time="0.607"/>
+  <testcase name="testRegisterUser" classname="ApiTesting.DemoTest.TestCases" time="0.852"/>
+  <testcase name="testUnsuccesfulRegisterUser" classname="ApiTesting.DemoTest.TestCases" time="0.666"/>
+  <testcase name="testApp on testApp(ApiTesting.DemoTest.AppTest)" classname="ApiTesting.DemoTest.AppTest" time="1.002"/>
 </testsuite>

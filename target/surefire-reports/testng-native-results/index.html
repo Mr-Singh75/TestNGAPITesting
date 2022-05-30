@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,12 +102,7 @@
                     <div class="method-list-content failed suite-Surefire_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTesting.DemoTest.TestCases" class="method navigator-link" hash-for-method="testLoginUser">testLoginUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTesting.DemoTest.TestCases" class="method navigator-link" hash-for-method="testRegisterUser">testRegisterUser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTesting.DemoTest.TestCases" class="method navigator-link" hash-for-method="testFetchUsers">testFetchUsers</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Surefire_suite -->
@@ -131,17 +126,27 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTesting.DemoTest.TestCases" class="method navigator-link" hash-for-method="testFetchListOfUsers">testFetchListOfUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="ApiTesting.DemoTest.TestCases" class="method navigator-link" hash-for-method="testFetchSingleUser">testFetchSingleUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTesting.DemoTest.TestCases" class="method navigator-link" hash-for-method="testFetchUser">testFetchUser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTesting.DemoTest.TestCases" class="method navigator-link" hash-for-method="testLoginUnseccusfulUser">testLoginUnseccusfulUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTesting.DemoTest.TestCases" class="method navigator-link" hash-for-method="testLoginUnseccusfulUser">testLoginUnseccusfulUser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTesting.DemoTest.TestCases" class="method navigator-link" hash-for-method="testLoginUser">testLoginUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ApiTesting.DemoTest.TestCases" class="method navigator-link" hash-for-method="testRegisterUser">testRegisterUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -169,72 +174,15 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginUser">
-                  </a> <!-- testLoginUser -->
-                  <span class="method-name">testLoginUser</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-JSON path token doesn&apos;t match.
-Expected: QpwL5tke4Pnpja7X4
-  Actual: null
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
-	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
-	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
-	at ApiTesting.DemoTest.TestCases.testLoginUser(TestCases.java:120)
-... Removed 45 stack frames
+                  <a name="testFetchUsers">
+                  </a> <!-- testFetchUsers -->
+                  <span class="method-name">testFetchUsers</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ApiTesting.DemoTest.TestCases.testFetchUsers(TestCases.java:36)
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testRegisterUser">
-                  </a> <!-- testRegisterUser -->
-                  <span class="method-name">testRegisterUser</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-JSON path id doesn&apos;t match.
-Expected: &lt;4&gt;
-  Actual: null
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
-	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
-	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
-	at ApiTesting.DemoTest.TestCases.testRegisterUser(TestCases.java:106)
-... Removed 45 stack frames
-</div> <!-- stack-trace -->
+                  <em>
+(Fetching User Details)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -250,6 +198,8 @@ Expected: &lt;4&gt;
                   <a name="testCreateUser">
                   </a> <!-- testCreateUser -->
                   <span class="method-name">testCreateUser</span>
+                  <em>
+(Creating the user)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -257,6 +207,17 @@ Expected: &lt;4&gt;
                   <a name="testDelayedResponse">
                   </a> <!-- testDelayedResponse -->
                   <span class="method-name">testDelayedResponse</span>
+                  <em>
+(Delayed Response)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFetchListOfUsers">
+                  </a> <!-- testFetchListOfUsers -->
+                  <span class="method-name">testFetchListOfUsers</span>
+                  <em>
+(Fetching List Of User Details)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -264,13 +225,8 @@ Expected: &lt;4&gt;
                   <a name="testFetchSingleUser">
                   </a> <!-- testFetchSingleUser -->
                   <span class="method-name">testFetchSingleUser</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testFetchUser">
-                  </a> <!-- testFetchUser -->
-                  <span class="method-name">testFetchUser</span>
+                  <em>
+(Fetching Single User)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -278,6 +234,26 @@ Expected: &lt;4&gt;
                   <a name="testLoginUnseccusfulUser">
                   </a> <!-- testLoginUnseccusfulUser -->
                   <span class="method-name">testLoginUnseccusfulUser</span>
+                  <em>
+(Login of Unsuccesful User)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser">
+                  </a> <!-- testLoginUser -->
+                  <span class="method-name">testLoginUser</span>
+                  <em>
+(Login user Response)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterUser">
+                  </a> <!-- testRegisterUser -->
+                  <span class="method-name">testRegisterUser</span>
+                  <em>
+(Registering the new user)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -285,6 +261,8 @@ Expected: &lt;4&gt;
                   <a name="testUnsuccesfulRegisterUser">
                   </a> <!-- testUnsuccesfulRegisterUser -->
                   <span class="method-name">testUnsuccesfulRegisterUser</span>
+                  <em>
+(Unsuccesful Register Users)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -340,44 +318,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testDelayedResponse')
 data.setCell(0, 2, 'ApiTesting.DemoTest.TestCases')
-data.setCell(0, 3, 3617);
+data.setCell(0, 3, 4823);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testCreateUser')
 data.setCell(1, 2, 'ApiTesting.DemoTest.TestCases')
-data.setCell(1, 3, 2409);
+data.setCell(1, 3, 3298);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testLoginUser')
+data.setCell(2, 1, 'testFetchListOfUsers')
 data.setCell(2, 2, 'ApiTesting.DemoTest.TestCases')
-data.setCell(2, 3, 681);
+data.setCell(2, 3, 1247);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testLoginUnseccusfulUser')
+data.setCell(3, 1, 'testRegisterUser')
 data.setCell(3, 2, 'ApiTesting.DemoTest.TestCases')
-data.setCell(3, 3, 619);
+data.setCell(3, 3, 852);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testFetchSingleUser')
 data.setCell(4, 2, 'ApiTesting.DemoTest.TestCases')
-data.setCell(4, 3, 584);
+data.setCell(4, 3, 781);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testRegisterUser')
+data.setCell(5, 1, 'testUnsuccesfulRegisterUser')
 data.setCell(5, 2, 'ApiTesting.DemoTest.TestCases')
-data.setCell(5, 3, 579);
+data.setCell(5, 3, 667);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testUnsuccesfulRegisterUser')
+data.setCell(6, 1, 'testLoginUnseccusfulUser')
 data.setCell(6, 2, 'ApiTesting.DemoTest.TestCases')
-data.setCell(6, 3, 567);
+data.setCell(6, 3, 646);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testFetchUser')
+data.setCell(7, 1, 'testLoginUser')
 data.setCell(7, 2, 'ApiTesting.DemoTest.TestCases')
-data.setCell(7, 3, 360);
+data.setCell(7, 3, 607);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testFetchUsers')
+data.setCell(8, 2, 'ApiTesting.DemoTest.TestCases')
+data.setCell(8, 3, 1);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -410,43 +392,45 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testCreateUser</span>
-                <span class="method-start">1052 ms</span>
+                <span class="method-start">1182 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDelayedResponse</span>
-                <span class="method-start">3461 ms</span>
+                <span class="method-start">4482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFetchListOfUsers</span>
+                <span class="method-start">9305 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testFetchSingleUser</span>
-                <span class="method-start">7078 ms</span>
+                <span class="method-start">10552 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testFetchUser</span>
-                <span class="method-start">7662 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFetchUsers</span>
+                <span class="method-start">11334 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLoginUnseccusfulUser</span>
-                <span class="method-start">8023 ms</span>
+                <span class="method-start">11348 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testLoginUser</span>
-                <span class="method-start">8642 ms</span>
+                <span class="method-start">11995 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testRegisterUser</span>
-                <span class="method-start">9334 ms</span>
+                <span class="method-start">12602 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUnsuccesfulRegisterUser</span>
-                <span class="method-start">9913 ms</span>
+                <span class="method-start">13455 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeReport</span>
-                <span class="method-start">10481 ms</span>
+                <span class="method-start">14122 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
